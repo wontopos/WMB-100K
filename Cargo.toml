@@ -1,0 +1,24 @@
+[package]
+name = "wmb-100k"
+version = "1.0.0"
+edition = "2021"
+description = "WMB-100K — Wontopos Memory Benchmark. The first 100,000-turn benchmark for AI memory systems."
+license = "Apache-2.0"
+repository = "https://github.com/Irina1920/WMB"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+reqwest = { version = "0.12", features = ["json"] }
+uuid = { version = "1", features = ["v4", "serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+rand = "0.8"
+clap = { version = "4", features = ["derive", "env"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+anyhow = "1"
+dotenvy = "0.15"
+indicatif = "0.17"
+sha2 = "0.10"
+futures = "0.3"

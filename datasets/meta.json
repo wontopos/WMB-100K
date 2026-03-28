@@ -1,0 +1,37 @@
+{
+  "version": "2.1",
+  "categories": [
+    "daily_life",
+    "relationships",
+    "work_career",
+    "health_fitness",
+    "travel_places",
+    "media_taste",
+    "finance_goals",
+    "education_skills",
+    "pets_hobbies",
+    "beliefs_values"
+  ],
+  "document_domains": [
+    "daily_life",
+    "economics",
+    "history",
+    "law",
+    "literature",
+    "medicine",
+    "philosophy",
+    "psychology",
+    "science",
+    "technology"
+  ],
+  "total_turns": 105591,
+  "total_questions": 2708,
+  "part_a_questions": 1200,
+  "part_b_questions": 1508,
+  "false_memory_probes": 400,
+  "scoring": "Part B main score (/100). Part A optional.",
+  "judges": {
+    "quick": ["gpt-4o-mini"],
+    "official": ["gpt-4o-mini", "claude-haiku-4-5", "gemini-2.0-flash"]
+  }
+}
