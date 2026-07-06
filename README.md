@@ -1,5 +1,14 @@
 # WMB-100K — Wontopos Memory Benchmark v2.1
 
+> [!WARNING]
+> **WMB-100K is a work in progress and is not stable yet. Last active update: March 2026.**
+>
+> Parts of the dataset, the scoring, and the harness are still rough, so please treat the current results as preliminary, not final or fully validated.
+>
+> Why it went quiet: for the last few months I have been heads-down building the Wontopos memory engine itself, and this benchmark kept sliding down the priority list. That is on me.
+>
+> It is not abandoned. I will come back and finish it properly. Until then, if you use WMB-100K, know that it is early and may still change.
+
 **An enterprise-scale situational benchmark for AI memory systems — 4.3M tokens, 2,708 questions.**
 
 Store 4.3M tokens (2.3M documents + 105K conversation turns), then prove your memory system can retrieve the right information for real-world situations.
